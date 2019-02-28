@@ -1,7 +1,7 @@
 # Algorithm
-learn from zero to hero
-string str---
-< strchr(string, char)
+learn from zero to hero</br>
+string str---</br>
+< strchr(string, char)</br>
 < strcpy(string, string)
 < strcmp(a, b)
 < strcat(a, b)
