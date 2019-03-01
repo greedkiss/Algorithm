@@ -9,4 +9,12 @@ string str---</br>
 < strlen(string)</br>
 < scanf("%s", str) this indicate the address of str and that must be an array of char</br>
 < strrchr(str, char) from end to begin, find whether there is a char of the string meet the char we input</br>
+</br>
+the space and sth will not be readed if you use the scanf ,otherwise , the only method to have it is using getchar()</br>
+this is a function , you can use it like</br>
+int c;</br>
+c= getchar();</br>
+to judge whether it ends, using != EOF</br>
+while((c = getchar())!=EOF)</br>
+考研加油哦！
 
