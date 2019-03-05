@@ -9,10 +9,7 @@ long long c(int m){
 int main(){
     int m,n;
     scanf("%d %d",&m,&n );
-    //printf("%ld", c(m)/c(n)/c(m-n));
-    printf("%ld\n", c(m));
-    printf("%ld\n", c(n));
-    printf("%ld", c(m-n));
-
+    printf("%ld", c(m)/c(n)/c(m-n));
     return 0;
 }
+//此种计算方式会溢出注意先约分在计算
