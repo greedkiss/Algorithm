@@ -16,5 +16,6 @@ int c;</br>
 c= getchar();</br>
 to judge whether it ends, using != EOF</br>
 while((c = getchar())!=EOF)</br>
-考研加油哦！
-
+Graduate entrance exam!</br>
+while(scanf("%d %d %d", &a, &b ,&c) == 3)
+注意能用到全局变量的话就不用指针
