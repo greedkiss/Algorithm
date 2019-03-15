@@ -18,4 +18,9 @@ to judge whether it ends, using != EOF</br>
 while((c = getchar())!=EOF)</br>
 Graduate entrance exam!</br>
 while(scanf("%d %d %d", &a, &b ,&c) == 3)
-注意能用到全局变量的话就不用指针
+注意能用到全局变量的话就不用指针</br>
+#include<algorithm></br>
+sort(a, a+n, method)</br>
+如果是两个参数从小到大排序</br>
+lower_bound(a, a+n , x) - a</br>
+查找x在a中返回偏移值</br>
