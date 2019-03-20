@@ -24,3 +24,6 @@ sort(a, a+n, method)</br>
 如果是两个参数从小到大排序</br>
 lower_bound(a, a+n , x) - a</br>
 查找x在a中返回偏移值</br>
+#include<vector></br>
+vector <int> a[maxn]</br>
+就是一个二维数组，push_back()数组最后添加数据，pop_back()删除最后的数据，resize(h)删除h后的数组元素，size()返回数组长度，insert()插入元素到任意位置</br>
