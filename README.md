@@ -27,10 +27,10 @@ lower_bound(a, a+n , x) - a</br>
 #include<vector></br>
 vector <int> a[maxn]</br>
 就是一个二维数组，push_back()数组最后添加数据，pop_back()删除最后的数据，resize(h)删除h后的数组元素，size()返回数组长度，insert()插入元素到任意位置</br>
->>>>>>>>>>>>树  
+树 
 高度k -->  结点总数pow(2,k) - 1, 叶子节点pow(2, k-1)  
 设标号为i, 左节点 2i, 右节点2i+1  
-<<<<<<<<<<<<二进制计算
+二进制计算
 计算一个整数有几个1 （二进制表示） 
 n = n& (n-1) 
 当n== 0退出循环 
