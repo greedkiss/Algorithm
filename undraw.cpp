@@ -1,25 +1,24 @@
 class Solution {
-    vector<string> a;
-    void dfs(vector<string>& ans, string& s, int pos, string& digist){
-        if(pos == digist.size()){
-            ans.push_back(s);
+    vector<string> m;
+    void dfs(vector<string>& res,string& s,const string& digits,int pos){
+        if(pos==digits.size()){
+            res.push_back(s);
             return;
         }
-        for(int i =0; i<a[digist[pos]-'0'].size();i++){
-            s += a[pos][i];
-            dfs(ans, s, ++pos, digist);
+        for(auto ch:m[digits[pos]-'0']){
+            s+=ch;
+            dfs(res,s,digits,pos+1);
             s.pop_back();
         }
     }
 public:
     vector<string> letterCombinations(string digits) {
-        vector<string> ans;
+        vector<string> res;
         if(digits.empty())
-            return ans;
-        a= {"0","1","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+            return res;
+        m={"0","1","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
         string s;
-        dfs(ans, s, 0, digits);
-        return ans;
+        dfs(res,s,digits,0);
+        return res;
     }
-    
 };
